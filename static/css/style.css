@@ -1,0 +1,756 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,300,500,600|Montserrat:700,900,800");
+    body {
+      font-size: 14px;
+      background:rgba(242, 247, 250, 1)
+    }
+    .nav {
+      width: 100%;
+      height: 2636px;
+      background: rgba(242,247,250,1);
+      opacity: 1;
+      position: relative;
+      top: 0px;
+      left: 0px;
+      overflow: hidden;
+    }
+    .footer {
+      width: 100%;
+      height: 303px;
+      background: url("../images/v140_6.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 2331px;
+      left: 0px;
+      overflow: hidden;
+    }
+    .name {
+      color: #fff;
+    }
+    .medsos {
+      width: 123px;
+      height: 58px;
+      background: url("../images/v140_7.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 136px;
+      left: 603px;
+      overflow: hidden;
+    }
+
+    .line{
+      position: absolute;
+      top: 87px;
+      left: 118px;
+      background-position: center center;
+    }
+
+    .med {
+      width: 118px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 3px;
+      left: 5px;
+      font-family: Roboto;
+      font-weight: Regular;
+      font-size: 18px;
+      opacity: 1;
+      text-align: left;
+    }
+    .komponen {
+      width: 149px;
+      height: 118px;
+      background: url("../images/v140_8.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 132px;
+      left: 335px;
+      overflow: hidden;
+    }
+    .beranda {
+      width: 73px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 7px;
+      left: 20px;
+      font-family: Roboto;
+      font-weight: Regular;
+      font-size: 18px;
+      opacity: 1;
+      text-align: left;
+    }
+    .ttgkoran {
+      width: 129px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 45px;
+      left: 20px;
+      font-family: Roboto;
+      font-weight: Regular;
+      font-size: 18px;
+      opacity: 1;
+      text-align: left;
+    }
+    .ttgkami {
+      width: 118px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 83px;
+      left: 20px;
+      font-family: Roboto;
+      font-weight: Regular;
+      font-size: 18px;
+      opacity: 1;
+      text-align: left;
+    }
+    .tagline {
+      width: 139px;
+      height: 98px;
+      background: url("../images/v140_9.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 117px;
+      left: 95px;
+      overflow: hidden;
+    }
+    .tahun {
+      width: 138px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 60px;
+      left: 23px;
+      font-family: Roboto;
+      font-weight: bold;
+      font-size: 18px;
+      opacity: 1;
+      text-align: left;
+    }
+    .koran {
+      width: 137px;
+      color: url("../images/v8_30.png");
+      position: absolute;
+      top: 25px;
+      left: 23px;
+      width: 144px;
+      height: 40px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      overflow: hidden;
+    }
+    .kami {
+      width: 100%;
+      height: 852px;
+      background: url("../images/v140_5.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 1508px;
+      left: 0px;
+      overflow: hidden;
+    }
+    .misikami {
+      width: 661px;
+      height: 120px;
+      background: url("../images/v140_10.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 666px;
+      left: 394px;
+      overflow: hidden;
+    }
+    .ourmission {
+      width: 634px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 63px;
+      left: 9px;
+      font-family: Roboto;
+      font-weight: Light;
+      font-size: 20px;
+      opacity: 1;
+      text-align: center;
+    }
+    .misi {
+      width: 158px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 9px;
+      left: 241px;
+      font-family: Roboto;
+      font-weight: Bold;
+      font-size: 36px;
+      opacity: 1;
+      text-align: left;
+    }
+    .keanggotaan {
+      width: 100%;
+      height: 472px;
+      background: url("../images/v140_11.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 160px;
+      left: 192px;
+      overflow: hidden;
+    }
+    .anggota1 {
+      width: 288px;
+      height: 332px;
+      background: url("../images/v12_9.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 114px;
+      left: 113px;
+      overflow: hidden;
+    }
+    .anggota2 {
+      width: 309px;
+      height: 359px;
+      background: url("../images/v12_8.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 87px;
+      left: 281px;
+      overflow: hidden;
+    }
+    .anggota3 {
+      width: 311px;
+      height: 348px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 98px;
+      left: 648px;
+      overflow: hidden;
+    }
+    .anggota4 {
+      width: 293px;
+      height: 315px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 131px;
+      left: 475px;
+      overflow: hidden;
+    }
+    .una {
+      width: 154px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 91px;
+      left: 597px;
+      font-size: 16px;
+      font-family: Roboto;
+      font-weight: bold;
+      opacity: 1;
+      text-align: left;
+    }
+    .kafi {
+      width: 197px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 50px;
+      left: 257px;
+      font-size: 16px;
+      font-family: Roboto;
+      font-weight: bold;
+      opacity: 1;
+      text-align: right;
+    }
+    .caki {
+      width: 150px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 262px;
+      left: 3px;
+      font-size: 16px;
+      font-family: Roboto;
+      font-weight: bold;
+      opacity: 1;
+      text-align: right;
+    }
+    .thor {
+      width: 135px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 231px;
+      left: 917px;
+      font-size: 16px;
+      font-family: Roboto;
+      font-weight: bold;
+      opacity: 1;
+      text-align: left;
+    }
+    .us {
+      width: 288px;
+      height: 98px;
+      background: url("../images/v140_12.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 62px;
+      left: 578px;
+      overflow: hidden;
+    }
+    .aboutus {
+      width: 250px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 2px;
+      left: 17px;
+      font-family: Roboto;
+      font-weight: Bold;
+      font-size: 36px;
+      opacity: 1;
+      text-align: center;
+    }
+    .nama {
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 56px;
+      left: 50px;
+      width: 184;
+      height: 23;
+      font-family: Roboto;
+      font-weight: Light;
+      font-size: 20px;
+      opacity: 1;
+      text-align: center;
+    }
+    .lb {
+      width: 100%;
+      height: 730px;
+      background: url("../images/v140_4.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 795px;
+      left: 0px;
+      overflow: hidden;
+    }
+    .latbel {
+      width: 939px;
+      height: 280px;
+      background: url("../images/v140_13.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 309px;
+      left: 244px;
+      overflow: hidden;
+    }
+    .ket1 {
+      width: 920px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 172px;
+      left: 16px;
+      font-size: 20px;
+      font-family: Roboto;
+      font-weight: light;
+      opacity: 1;
+      text-align: center;
+    }
+    .ket2 {
+      width: 926px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 15px;
+      left: 13px;
+      font-size: 20px;
+      font-family: Roboto;
+      font-weight: light;
+      opacity: 1;
+      text-align: center;
+    }
+    .kor_an {
+      width: 670px;
+      height: 203px;
+      background: url("../images/v140_14.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 61px;
+      left: 386px;
+      overflow: hidden;
+    }
+    .logo_k {
+      width: 74px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 11px;
+      left: 12px;
+      font-family: Montserrat;
+      font-weight: bolder;
+      font-size: 96px;
+      opacity: 1;
+      text-align: center;
+    }
+    .logo_or {
+      width: 109px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 11px;
+      left: 91px;
+      font-family: Montserrat;
+      font-weight: bolder;
+      font-size: 96px;
+      opacity: 1;
+      text-align: center;
+    }
+    .logo_an {
+      width: 158px;
+      color: rgba(0,143,224,1);
+      position: absolute;
+      top: 86px;
+      left: 12px;
+      font-family: Montserrat;
+      font-weight: bolder;
+      font-size: 96px;
+      opacity: 1;
+      text-align: center;
+    }
+    .koreksi {
+      width: 188px;
+      color: url("../images/v117_375.png");
+      position: absolute;
+      top: 77px;
+      left: 266px;
+    }
+    .ejaan {
+      width: 140px;
+      color: url("../images/v117_376.png");
+      position: absolute;
+      top: 77px;
+      left: 516px;
+    }
+    .logo_beranda {
+      width: 100%;
+      height: 148px;
+      background: url("../images/v140_2.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: relative;
+      top: 0px;
+      left: 0px;
+      overflow: hidden;
+    }
+    .lgb {
+      width: 144px;
+      height: 40px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 65px;
+      left: 120px;
+      overflow: hidden;
+    }
+
+    .beranda_atas {
+      width: 98px;
+      height: 54px;
+      background: url("../images/v140_19.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 48px;
+      left: 868px;
+      overflow: hidden;
+    }
+    .beranda_atas1 {
+      width: 64px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 16px;
+      left: 17px;
+      font-family: Roboto;
+      font-weight: bold;
+      font-size: 20px;
+      opacity: 1;
+      text-align: left;
+    }
+    .beranda_atas2 {
+      width: 75px;
+      height: 30px;
+      background: rgba(217,217,217,0);
+      opacity: 1;
+      position: absolute;
+      top: 12px;
+      left: 11px;
+      overflow: hidden;
+    }
+    .ttgkoran_atas {
+      width: 155px;
+      height: 52px;
+      background: url("../images/v140_20.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 50px;
+      left: 980px;
+      overflow: hidden;
+    }
+    .ttgkoran_atas1 {
+      width: 144px;
+      height: 30px;
+      background: rgba(217,217,217,0);
+      opacity: 1;
+      position: absolute;
+      top: 10px;
+      left: 155px;
+      overflow: hidden;
+    }
+    .ttgkoran_atas2 {
+      width: 145px;
+      height: 23px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 14px;
+      left: 17px;
+      font-family: Roboto;
+      font-weight: bold;
+      font-size: 20px;
+      opacity: 1;
+      text-align: justify;
+    }
+    .ttgkami_atas {
+      width: 154px;
+      height: 52px;
+      background: url("../images/v140_21.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 50px;
+      left: 1164px;
+      overflow: hidden;
+    }
+    .ttgkami_atas1 {
+      width: 131px;
+      height: 30px;
+      background: rgba(217,217,217,0);
+      opacity: 1;
+      position: absolute;
+      top: 10px;
+      left: 2px;
+      overflow: hidden;
+    }
+    .ttgkami_atas2 {
+      width: 125px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 14px;
+      left: 13px;
+      font-family: Roboto;
+      font-weight: bold;
+      font-size: 20px;
+      opacity: 1;
+      text-align: left;
+    }
+    .masukkan {
+      width: 100%;
+      height: 635px;
+      background: url("../images/v140_3.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 165px;
+      left: 0px;
+      overflow: hidden;
+    }
+    .masukkan1 {
+      width: 894px;
+      height: 472px;
+      background: url("../images/v140_15.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 41px;
+      left: 96px;
+      overflow: hidden;
+    }
+    .masukkan2 {
+      width: 849px;
+      height: 440px;
+      background: rgba(255,255,255,1);
+      opacity: 1;
+      position: absolute;
+      top: 13px;
+      left: 22px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+      overflow: hidden;
+    }
+
+    .masukkan2 input{
+      outline: none;
+      border: none;
+      stroke: none;
+      resize:none;
+      text-align: left;
+      font-size: 28px;
+      font-family: Roboto;
+      font-weight: Regular;
+    }
+    .logo_besar {
+      width: 286px;
+      height: 270px;
+      background: url("../images/v140_16.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 139px;
+      left: 1044px;
+      overflow: hidden;
+    }
+    .k_besar {
+      width: 98px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 15px;
+      left: 21px;
+      font-family: Montserrat;
+      font-weight: bolder;
+      font-size: 128px;
+      opacity: 1;
+      text-align: center;
+    }
+    .or_besar {
+      width: 146px;
+      color: rgba(0,0,0,1);
+      position: absolute;
+      top: 15px;
+      left: 119px;
+      font-family: Montserrat;
+      font-weight: bolder;
+      font-size: 128px;
+      opacity: 1;
+      text-align: center;
+    }
+    .an_besar {
+      width: 211px;
+      color: rgba(0,143,224,1);
+      position: absolute;
+      top: 99px;
+      left: 21px;
+      font-family: Montserrat;
+      font-weight: bolder;
+      font-size: 128px;
+      opacity: 1;
+      text-align: center;
+    }
+    .periksa {
+      width: 230px;
+      height: 80px;
+      background: url("../images/v140_17.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 517px;
+      left: 760px;
+      overflow: hidden;
+    }
+    .button {
+      width: 188px;
+      height: 58px;
+      background: rgba(49,100,244,1);
+      opacity: 1;
+      position: absolute;
+      top: 8px;
+      left: 19px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      box-shadow: 0px 0px 5px;
+      border: none;
+      outline: none;
+      color: rgba(255,255,255,1); rgba(0,0,0,5);
+      font-family: Roboto;
+      font-weight: Medium;
+      font-size: 20px;
+      overflow: hidden;
+    }
+    .form-fill {
+      padding: 15px;
+      width: 100%;
+      height: 100%; 
+      box-sizing: border-box;
+    }
+    .textarea-fill {
+      width: 100%;
+      height: 100%; 
+      box-sizing: border-box;
+      font-family: Roboto;
+      font-weight: Medium;
+      font-size: 18px;
+
+
+      border: none;
+      overflow: auto;
+      outline: none;
+
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+
+      resize: none;
+    }

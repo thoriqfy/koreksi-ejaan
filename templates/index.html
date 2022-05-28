@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Application</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+    
+</head>
+
+<body>
+	<h1>Spell Check</h1>
+
+		<form action="http://localhost:5000/predict" method="POST">
+			<label form="description">Description:</label>
+			<input type="text" id="description" name="description">
+			<button type="submit" class=cv_btn>Predict Code</button>
+
+		</form>
+		<br>
+		<br>
+		Prediction: {{ prediction_text }}
+        <div class="nav">
+            <div class="footer">
+                <div class="name"></div>
+                <div class="line">
+                    <div>
+                        <img src="./line.svg" >
+                    </div>
+                </div>
+                <div class="medsos">
+                    <span class="med">media sosial <br> @koran.id</span>
+                </div>
+                <div class="komponen">
+                    <span class="beranda">Beranda</span>
+                    <span class="ttgkoran">Tentang Koran</span>
+                    <span class="ttgkami">Tentang kami</span>
+                </div>
+                <div class="tagline">
+                    <span class="tahun">2022</span>
+                    <div class="koran">
+                        <div>
+                            <img src="./logokecil.svg" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="kami">
+                <div class="misikami">
+                    <span class="misi">Misi kami</span>
+                    <span class="ourmission">Membantu orang - orang mengetahui mengecek ejaan bahasa Indonesia yang sesuai dengan KBBI</span>
+                </div>
+                <div class="keanggotaan">
+                    <div class="anggota1">
+                        <div>
+                            <img src="./dzaki.svg" >
+                        </div>
+                    </div>
+                    <div class="anggota2">
+                        <div>
+                            <img src="./kahfi.svg" >
+                        </div>
+                    </div>
+                    <div class="anggota3">
+                        <div>
+                            <img src="./thoriq.svg" >
+                        </div>
+                    </div>
+                    <div class="anggota4">
+                        <div>
+                            <img src="./una.svg" >
+                        </div>
+                    </div>
+                    <span class="una">Unaa / Cloud Eng</span>
+                    <span class="kafi">Kahfi / UI/UX Designer</span>
+                    <span class="caki">Dzaki / Software Eng</span>
+                    <span class="thor">Thoriq / AI Eng</span>
+                </div>
+                <div class="us">
+                    <span class="aboutus">Tentang Kami</span>
+                    <span class="nama">beauty and the beast</span>
+                </div>
+            </div>
+            <div class="lb">
+                <div class="latbel">
+                    <span class="ket1">Dari permasalahan di atas, kami tertarik untuk mengembangkan aplikasi berbasis website yang berguna untuk melakukan koreksi ejaan terhadap sebuah penulisan. Dari website tersebut dapat digunakan untuk melakukan koreksi ejaan pada sebuah teks atau artikel, cukup dengan paste teks dalam textbox.</span>
+                    <span class="ket2">Di dunia digital, perkembangan penulisan berbagai hal seperti artikel, jurnal, dan blog menjadi meningkat dengan cepat. Akan tetapi, dalam penulisan panjang yang lebih dari 1000 kata, menjadi tantangan tersendiri dalam hal spelling check atau pengecekan penulisan ejaan kata. Terlebih lagi KBBI yang diperbarui setiap waktu juga terkadang menyulitkan untuk mencari tahu kata mana yang tepat.</span>
+                </div>
+                <div class="kor_an">
+                    <span class="logo_k">K</span>
+                    <span class="logo_or">or</span>
+                    <span class="logo_an">an.</span>
+                    <div class="koreksi">
+                        <div>
+                            <img src="./Koreksi.svg" >
+                        </div>
+                    </div>
+                    <div class="ejaan">
+                        <div>
+                            <img src="./Ejaan.svg" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="logo_beranda">
+                <div class="lgb">
+                    <img src="./logo.svg" >
+                </div>
+                <div class="beranda_atas">
+                    <span class="beranda_atas1">Beranda</span>
+                    <div class="beranda_atas2"></div>
+                </div>
+            <div class="ttgkoran_atas">
+                <div class="ttgkoran_atas1"></div>
+                <span class="ttgkoran_atas2">Tentang Koran</span>
+            </div>
+                <div class="ttgkami_atas">
+                    <div class="ttgkami_atas1"></div>
+                    <span class="ttgkami_atas2">Tentang Kami</span>
+                </div>
+        </div>
+        <div class="masukkan">
+            <div class="masukkan1">
+                <div class="masukkan2">
+                    <form class="form-fill">
+                        <textarea class="textarea-fill" placeholder="masukkan atau tempelkan pesan disini"></textarea>
+                    </form>
+                </div>
+            </div>
+            <div class="logo_besar">
+                <span class="k_besar">K</span>
+                <span class="or_besar">or</span>
+                <span class="an_besar">an.</span>
+            </div>
+            <div class="periksa">
+                <div class="periksa1"></div>
+                <button type="button" class="button">Periksa</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UIF-8">
+        <meta http-equiv="X-UA-COmpatible" content="IE=edge">
+        <meta name="viewport" content=""width-device-width, initial-scale="1.0">
+        <title>Koran</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="nav">
+            <div class="footer">
+                <div class="name"></div>
+                <div class="line">
+                    <div>
+                        <img src="./line.svg" >
+                    </div>
+                </div>
+                <div class="medsos">
+                    <span class="med">media sosial <br> @koran.id</span>
+                </div>
+                <div class="komponen">
+                    <span class="beranda">Beranda</span>
+                    <span class="ttgkoran">Tentang Koran</span>
+                    <span class="ttgkami">Tentang kami</span>
+                </div>
+                <div class="tagline">
+                    <span class="tahun">2022</span>
+                    <div class="koran">
+                        <div>
+                            <img src="./logokecil.svg" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="kami">
+                <div class="misikami">
+                    <span class="misi">Misi kami</span>
+                    <span class="ourmission">Membantu orang - orang mengetahui mengecek ejaan bahasa Indonesia yang sesuai dengan KBBI</span>
+                </div>
+                <div class="keanggotaan">
+                    <div class="anggota1">
+                        <div>
+                            <img src="./dzaki.svg" >
+                        </div>
+                    </div>
+                    <div class="anggota2">
+                        <div>
+                            <img src="./kahfi.svg" >
+                        </div>
+                    </div>
+                    <div class="anggota3">
+                        <div>
+                            <img src="./thoriq.svg" >
+                        </div>
+                    </div>
+                    <div class="anggota4">
+                        <div>
+                            <img src="./una.svg" >
+                        </div>
+                    </div>
+                    <span class="una">Unaa / Cloud Eng</span>
+                    <span class="kafi">Kahfi / UI/UX Designer</span>
+                    <span class="caki">Dzaki / Software Eng</span>
+                    <span class="thor">Thoriq / AI Eng</span>
+                </div>
+                <div class="us">
+                    <span class="aboutus">Tentang Kami</span>
+                    <span class="nama">beauty and the beast</span>
+                </div>
+            </div>
+            <div class="lb">
+                <div class="latbel">
+                    <span class="ket1">Dari permasalahan di atas, kami tertarik untuk mengembangkan aplikasi berbasis website yang berguna untuk melakukan koreksi ejaan terhadap sebuah penulisan. Dari website tersebut dapat digunakan untuk melakukan koreksi ejaan pada sebuah teks atau artikel, cukup dengan paste teks dalam textbox.</span>
+                    <span class="ket2">Di dunia digital, perkembangan penulisan berbagai hal seperti artikel, jurnal, dan blog menjadi meningkat dengan cepat. Akan tetapi, dalam penulisan panjang yang lebih dari 1000 kata, menjadi tantangan tersendiri dalam hal spelling check atau pengecekan penulisan ejaan kata. Terlebih lagi KBBI yang diperbarui setiap waktu juga terkadang menyulitkan untuk mencari tahu kata mana yang tepat.</span>
+                </div>
+                <div class="kor_an">
+                    <span class="logo_k">K</span>
+                    <span class="logo_or">or</span>
+                    <span class="logo_an">an.</span>
+                    <div class="koreksi">
+                        <div>
+                            <img src="./Koreksi.svg" >
+                        </div>
+                    </div>
+                    <div class="ejaan">
+                        <div>
+                            <img src="./Ejaan.svg" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="logo_beranda">
+                <div class="lgb">
+                    <img src="./logo.svg" >
+                </div>
+                <div class="beranda_atas">
+                    <span class="beranda_atas1">Beranda</span>
+                    <div class="beranda_atas2"></div>
+                </div>
+            <div class="ttgkoran_atas">
+                <div class="ttgkoran_atas1"></div>
+                <span class="ttgkoran_atas2">Tentang Koran</span>
+            </div>
+                <div class="ttgkami_atas">
+                    <div class="ttgkami_atas1"></div>
+                    <span class="ttgkami_atas2">Tentang Kami</span>
+                </div>
+        </div>
+        <div class="masukkan">
+            <div class="masukkan1">
+                <div class="masukkan2">
+                    <form class="form-fill">
+                        <textarea class="textarea-fill" placeholder="masukkan atau tempelkan pesan disini"></textarea>
+                    </form>
+                </div>
+            </div>
+            <div class="logo_besar">
+                <span class="k_besar">K</span>
+                <span class="or_besar">or</span>
+                <span class="an_besar">an.</span>
+            </div>
+            <div class="periksa">
+                <div class="periksa1"></div>
+                <button type="button" class="button">Periksa</button>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>  -->
