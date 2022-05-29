@@ -1,195 +1,15 @@
-img
-{
-  margin-top: 5px; /* Add some white space above images */
-  margin-bottom: 5px; /* Add some white space below images */
-  margin-right: 25px;
-}
 
-a
-{
-  color: #383838;
-}
-
-a:hover  
-{
-  color: #db7546;
-}
-
-body
-{
-  color: #383838;
-  font-family: 'Verdana', sans-serif;
-
-  font-size: calc(1em + 0.25vw); 
-  line-height: 1.5;
-  margin: 0.5em;
-
-  /*line-height: 1.5em; */
-  letter-spacing: 0.05em;
-
-  text-align: left;
-  
-  padding-left: 10px;
-  padding-right: 10px;
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,300,500,600|Montserrat:700,900,800");
+*{
   box-sizing: border-box;
 }
-
-h1 {
-  color: #383838;
-  font-size: 46px;
-  font-weight: bold;
-  text-align: left;
-  margin-top: 50px; 
-}
-
-h2 {
-  color: #383838;
-  font-size: calc(1.2em + 0.25vw); 
-  font-weight: normal;
-  text-align: left;
-  margin-top: 50px;
-  line-height: 1.5;
-}
-
-h3 {
-  color: #383838;
-
-  font-size: calc(1em + 0.25vw);
-  
-  font-weight: bold;
-  text-align: left;
-  margin-top: 50px; 
-}
-
-.topnav {
-  background-color: #;
-  overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #383838;
-  text-align: left;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: calc(0.7em + 0.5vw); 
- 
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #383838;
-  color: white;
-}
-
-
-/* Special style for the home page body text at the top */
-.topbody{
-  color: #302f2f;
-  font-family: 'Verdana', sans-serif;
-  font-size: 24px;
-  text-align: left;
-  line-height: 1.5em;
-  letter-spacing: 0.05em;
-}
-
-
-
-/* Special style for the home page image at the top */
-.topimg{
-  margin-top: 5px; /* Add some white space above images */
-  margin-bottom: 5px; /* Add some white space below images */
-  text-align: left;
-}
-
-/* when class=responsive is used in img src tag, these properties restrict sizing */
-.responsive {
-  width: 100%;
-  min-width: 325px;
-  max-width: 350px;
-  height: auto;
-}
-
-/* Special style for the home page links at the top (twitter, github, linkedin) */
-.toplink
-{
-  color: #e6551c;
-  font-family: 'Verdana', sans-serif;
-  font-size: 18px;
-  text-align: left;
-  line-height: 1.5em;
-  letter-spacing: 0.05em;
-  text-align: left;
-}
-
-/* Special style for images with a box shadow */
-.boxy
-{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-top: 5px; /* Add some white space above images */
-  margin-bottom: 5px; /* Add some white space below images */
-  max-width: 900px;
-}
-
-.boxy img 
-{
-  width: 100%;
-  height: auto;
-}
-
-/* Table style */
-table {
-  font-family: Verdana, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-
-.cv_btn {
-  display: inline-block;
-  padding: 10px;
-  border: 2px solid #048474;
-  font-family: 'Verdana', sans-serif;
-  font-size: 12pt; 
-  /*text-decoration: none;*/
-  appearance: none;
-  background-color: transparent;
-}
-.cv_btn:hover{
-  background-color: #048474;
-  color: #fff;
-}
-
-input {
-  border: 2px solid #048474;
-  height:37px;
-  width:275px;
-  font-size:14pt;
-}
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,300,500,600|Montserrat:700,900,800");
     body {
       font-size: 14px;
       background:rgba(242, 247, 250, 1)
     }
     .nav {
       width: 100%;
-      height: 2636px;
+      height: 3272px;
       background: rgba(242,247,250,1);
       opacity: 1;
       position: relative;
@@ -200,13 +20,12 @@ input {
     .footer {
       width: 100%;
       height: 303px;
-      background: url("../images/v140_6.png");
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
       opacity: 1;
       position: absolute;
-      top: 2331px;
+      top: 2969px;
       left: 0px;
       overflow: hidden;
     }
@@ -216,7 +35,6 @@ input {
     .medsos {
       width: 123px;
       height: 58px;
-      background: url("../images/v140_7.png");
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
@@ -249,7 +67,6 @@ input {
     .komponen {
       width: 149px;
       height: 118px;
-      background: url("../images/v140_8.png");
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
@@ -298,7 +115,6 @@ input {
     .tagline {
       width: 139px;
       height: 98px;
-      background: url("../images/v140_9.png");
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
@@ -322,7 +138,6 @@ input {
     }
     .koran {
       width: 137px;
-      color: url("../images/v8_30.png");
       position: absolute;
       top: 25px;
       left: 23px;
@@ -337,20 +152,18 @@ input {
     .kami {
       width: 100%;
       height: 852px;
-      background: url("../images/v140_5.png");
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
       opacity: 1;
       position: absolute;
-      top: 1508px;
+      top: 2115px;
       left: 0px;
       overflow: hidden;
     }
     .misikami {
       width: 661px;
       height: 120px;
-      background: url("../images/v140_10.png");
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
@@ -387,7 +200,6 @@ input {
     .keanggotaan {
       width: 100%;
       height: 472px;
-      background: url("../images/v140_11.png");
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
@@ -400,7 +212,6 @@ input {
     .anggota1 {
       width: 288px;
       height: 332px;
-      background: url("../images/v12_9.png");
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
@@ -413,7 +224,6 @@ input {
     .anggota2 {
       width: 309px;
       height: 359px;
-      background: url("../images/v12_8.png");
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
@@ -498,7 +308,6 @@ input {
     .us {
       width: 288px;
       height: 98px;
-      background: url("../images/v140_12.png");
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
@@ -536,20 +345,18 @@ input {
     .lb {
       width: 100%;
       height: 730px;
-      background: url("../images/v140_4.png");
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
       opacity: 1;
       position: absolute;
-      top: 795px;
+      top: 1392px;
       left: 0px;
       overflow: hidden;
     }
     .latbel {
       width: 939px;
       height: 280px;
-      background: url("../images/v140_13.png");
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
@@ -586,7 +393,6 @@ input {
     .kor_an {
       width: 670px;
       height: 203px;
-      background: url("../images/v140_14.png");
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
@@ -634,14 +440,12 @@ input {
     }
     .koreksi {
       width: 188px;
-      color: url("../images/v117_375.png");
       position: absolute;
       top: 77px;
       left: 266px;
     }
     .ejaan {
       width: 140px;
-      color: url("../images/v117_376.png");
       position: absolute;
       top: 77px;
       left: 516px;
@@ -649,7 +453,6 @@ input {
     .logo_beranda {
       width: 100%;
       height: 148px;
-      background: url("../images/v140_2.png");
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
@@ -675,7 +478,6 @@ input {
     .beranda_atas {
       width: 98px;
       height: 54px;
-      background: url("../images/v140_19.png");
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
@@ -710,7 +512,6 @@ input {
     .ttgkoran_atas {
       width: 155px;
       height: 52px;
-      background: url("../images/v140_20.png");
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
@@ -746,7 +547,6 @@ input {
     .ttgkami_atas {
       width: 154px;
       height: 52px;
-      background: url("../images/v140_21.png");
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
@@ -781,7 +581,6 @@ input {
     .masukkan {
       width: 100%;
       height: 635px;
-      background: url("../images/v140_3.png");
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
@@ -794,7 +593,6 @@ input {
     .masukkan1 {
       width: 894px;
       height: 472px;
-      background: url("../images/v140_15.png");
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
@@ -820,7 +618,7 @@ input {
       overflow: hidden;
     }
 
-    .masukkan2 input{
+    .masukkan2 textarea{
       outline: none;
       border: none;
       stroke: none;
@@ -833,7 +631,6 @@ input {
     .logo_besar {
       width: 286px;
       height: 270px;
-      background: url("../images/v140_16.png");
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
@@ -882,7 +679,6 @@ input {
     .periksa {
       width: 230px;
       height: 80px;
-      background: url("../images/v140_17.png");
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
@@ -898,8 +694,8 @@ input {
       background: rgba(49,100,244,1);
       opacity: 1;
       position: absolute;
-      top: 8px;
-      left: 19px;
+      top: 350px;
+      left: 600px;
       border-top-left-radius: 10px;
       border-top-right-radius: 10px;
       border-bottom-left-radius: 10px;
@@ -912,6 +708,7 @@ input {
       font-weight: Medium;
       font-size: 20px;
       overflow: hidden;
+      cursor: pointer;
     }
     .form-fill {
       padding: 15px;
@@ -937,4 +734,44 @@ input {
       box-shadow: none;
 
       resize: none;
+    }
+    .hasil {
+      padding: 30px 20px;
+    }
+    .hasil1 {
+      width: 894px;
+      height: 472px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      opacity: 1;
+      position: absolute;
+      top: 817px;
+      left: 96px;
+      overflow: hidden;
+    }
+    .hasil2 {
+      width: 849px;
+      height: 440px;
+      background: rgba(255,255,255,1);
+      opacity: 1;
+      position: absolute;
+      top: 13px;
+      left: 22px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+      overflow: hidden;
+    }
+    .hasiltext{
+      outline: none;
+      border: none;
+      stroke: none;
+      resize:none;
+      text-align: left;
+      font-size: 28px;
+      font-family: Roboto;
+      font-weight: Regular;
     }
